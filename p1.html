@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robin Issac J - Portfolio</title>
+    <link rel="stylesheet" href="p1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating Navigation -->
+    <nav class="nav-floating" id="nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-text">RIJ</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Particle Background -->
+    <div id="particles-container"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-background"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <span class="hero-greeting">Hello, I'm</span>
+                        <h1 class="hero-name">Robin Issac J</h1>
+                        <p class="hero-description">Full-Stack Developer & Vibe Coding & Creative Problem Solver</p>
+                        <p class="hero-subtitle">Crafting exceptional digital experiences with modern web technologies</p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary">View My Work</a>
+                            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="floating-card">
+                            <div class="code-snippet">
+                                <div class="code-line">
+                                    <span class="code-keyword">const</span>
+                                    <span class="code-variable">developer</span>
+                                    <span class="code-operator">=</span>
+                                    <span class="code-string">"passionate"</span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="code-keyword">function</span>
+                                    <span class="code-function">createAmazingApps</span>
+                                    <span class="code-bracket">()</span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="code-bracket">{</span>
+                                </div>
+                                <div class="code-line code-indent">
+                                    <span class="code-keyword">return</span>
+                                    <span class="code-string">"innovation"</span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="code-bracket">}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Passionate developer with a love for creating innovative solutions</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Motivated and detail‑driven BCA graduate and certified Python Full Stack Developer with hands‑on experience in designing and developing responsive web applications. Skilled in both frontend and backend technologies including React.js, Python, and MongoDB. Eager to contribute to collaborative development environments, continuously learn, and grow into a professional software developer</p>
+                        <p>I'm a dedicated full-stack developer with a passion for creating elegant, efficient solutions to complex problems. With expertise in modern web technologies, I bring ideas to life through clean code and exceptional user experiences.</p>
+                        <p>My journey in web development began with curiosity and has evolved into a career focused on continuous learning and innovation. I thrive in collaborative environments and enjoy tackling challenging projects that push the boundaries of what's possible.</p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="1">0</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="0">0</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="1">0</span>
+                                <span class="stat-label">Happy Clients</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="profile-card">
+                            <div class="profile-image">
+                                <img src="Assets/1000153668.jpg" alt="Robin Issac J" class="profile-img">
+                            </div>
+                            <div class="profile-info">
+                                <h3>Robin Issac J</h3>
+                                <p>Full-Stack Developer</p>
+                                <div class="profile-skills">
+                                    <span class="skill-tag">React</span>
+                                    <span class="skill-tag">Python</span>
+                                    <span class="skill-tag">Mongo DB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <p class="section-subtitle">Mastering the tools that power modern web development</p>
+                </div>
+                <div class="skills-grid" id="skills-grid">
+                    <!-- Skills will be dynamically generated -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">A showcase of my best work and creative solutions</p>
+                </div>
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Projects will be dynamically generated -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <p class="section-subtitle">Ready to bring your ideas to life</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>robinissac067@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🌍</div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Tamil Nadu, Chennai</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">💼</div>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/robin-issac-j/"><p>linkedin.com/in/Robin Issac J</p></a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                            <div class="contact-details">
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/robinissacj"><p>GitHub.com/in/Robin Issac J</p></a>
+                            </div>
+                        </div>
+                        <form method="get" action="Assets/Robin Issac J Resume.pdf">
+                        <button type="submit" class="btn btn-primary">Download Resume</button>
+                        </form>
+                    </div>
+                    <form class="contact-form" id="contact-form" name="submit-to-google-sheet">
+                        <div class="form-group">
+                            <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="Email" placeholder="Your Email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="Message" placeholder="Your Message" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Modal -->
+    <div class="modal" id="project-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div class="modal-body" id="modal-body">
+                <!-- Modal content will be dynamically inserted -->
+            </div>
+        </div>
+    </div>
+
+<!------------------------- Robin Issac Portfolio Feedback Form --------------------------->
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwJjPA12V4zg8nAlpP7X65WuB9gBSDCkuVghoQta3mn3Ld9gylIYSgbNbo9qL3CeE2rPA/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+    <!------------ Scripts ------------>
+    <script src="pp1.js"></script>
+    <script src="ps1.js"></script>
+    <script src="ppro1.js"></script>
+    <script src="ps.js"></script>
+</body>
+</html>
